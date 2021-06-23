@@ -16,12 +16,4 @@ services:
         restart: on-failure
         ports:
             - 80:80
-            
-    juiceshop:
-
-        container_name: juiceshop
-        image: bkimminich/juice-shop@sha256:7cce60f70f49042e97a3386e45e5161566c72246846c2999278a5aff4353caea
-        restart: on-failure
-        ports:
-            - 82:3000   
-
+         
