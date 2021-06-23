@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+    dvwap:
+
+        container_name: dvwa
+        image: zachroofsec/dvwa@sha256:e46499fd42fdca6ff9f6270e4ab54db0214a3198f11703fe33cd18e69088ba79
+        restart: on-failure
+        ports:
+            - 8081:80
+
+    bwapp:
+
+        container_name: bwapp
+        image: zachroofsec/bwapp@sha256:d613e58f179e0c99fb570a290f20bcf61909422143ff24b9ef8434c65c2b70ea
+        restart: on-failure
+        ports:
+            - 80:80
+
