@@ -1,2 +1,2 @@
-localhost
-localhost:81
+bwapp
+dvwa:81
